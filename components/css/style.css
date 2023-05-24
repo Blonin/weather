@@ -1,17 +1,29 @@
 
+:root{
+    --text: #3a4c64;
+    --bgc: #b1aed0d0;
+    --pb: #848eb8;
+    --sb: #9ebac7;
+    --acc: #81b2b6;
+
+}
+
+
 body {
     margin: 0px;
     display: flex;
     justify-content: center;
-    background: black;
     height: 100vh;
     align-items: center;
     font-family: 'Nunito', sans-serif;
+    background: var(--bgc);
+    background-image: url(../img/john-towner-JgOeRuGD_Y4-unsplash.jpg);
 }
 
 
 .card {
-    background: #eaeaea;
+    background: var(--bgc);
+    color: var(--text);
     padding: 2em;
     border-radius: 20px;
     width: 100%;
